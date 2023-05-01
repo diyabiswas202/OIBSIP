@@ -1,0 +1,70 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+body{
+    
+    background: #87bbf0;
+}
+.container{
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    background: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+#newtask input{
+    width: 75%;
+    height: 40px;
+    padding: 12px;
+    position: relative;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+
+#newtask button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #0d75ec;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 40px;
+}
+#tasks{
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+
+.task{
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #327e98;
+    cursor: pointer;
+    background-color: #c5e1e6;
+    height: 40px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+
+.task button{
+    background-color: #57a3c4;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+}
