@@ -1,0 +1,36 @@
+body{
+    
+    background: #abcef1;
+}
+
+.container{
+    text-align: center;
+    margin-top:33px;
+}
+ 
+table{
+    margin:30px;
+}
+ 
+input{
+   
+    font-size:34px;
+    height: 65px;
+    width: 260px;
+    
+}
+ 
+button{
+    
+    font-size: 20px;
+    background: #60b8d8;
+    width: 60px;
+    height: 50px;
+    margin: 6px;
+}
+ 
+.calculator{
+    display: inline-block;
+    background-color: #5843e2;
+    padding: 23px;
+}
